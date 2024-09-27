@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>F1 Tuor - Turismo e Viagens</title>
+  <!------Bootstrap------>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+   <!-----CSS------>
+  <link rel="stylesheet" href="./styles/style.css">
+
+   <!------Font-Family------>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital@0;1&display=swap" rel="stylesheet">
+</head>
+
+
+
+<body>
+ <div id="bodySection">
+   <header>
+      <div class="grid-container">
+        <div>
+          <nav  class="navbar navbar-expand-lg navbar-light ">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Alterna navegação">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+              <a class="navbar-brand" href="#"><img id="Logo" src="assets/Logo.svg" alt="Logomarca F1 Turismo" width="200px" height="200px"></a>
+   
+              <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                <li class="nav-item active">
+                  <a class="nav-link" href="index.html">Home <span class="sr-only">(Página atual)</span></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="destino.html" target="_self">Destino</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="promocoes.html" target="_self">Promoções</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="sobre.html">Sobre</a>
+                </li>
+              </ul>
+            </div>
+          </nav>
+   
+          <div class="input-group mb-3">
+            <input type="text" class="form-control" placeholder="Para onde gostaria de ir? ex: Rio de Janeiro" aria-label="Recipient's username" aria-describedby="button-addon2">
+            <div class="input-group-append">
+              <button class="btn btn-outline-secondary" type="button" id="button-addon2"><img src="assets/lets-go.png" alt="botão ir"></button>
+            </div>
+          </div>
+        </div>
+        <nav id="go-enter">
+          <a href="compra.html"><img src="assets/carrinho-de-compras.png" alt="Carrinho de compras" width="38px" height="38px"></a>
+          <a href="singin.html">Sing in</a>
+        </nav>
+      </div>
+   
+   </header>
+   
+   <section id="form-index">
+    <form>
+      <div class="form-group">
+        <img class="image-assets" src="assets/placeholder.png" alt="">
+        <span>De onde está saindo?</span>
+        <input type="text"  class="form-control" id="formGroupExampleInput" placeholder="Local de Partida..">
+      </div>
+      <div class="form-group">
+        <img class="image-assets" src="assets/calendario.png" alt="">
+        <span>Previsão de Saída?</span>
+        <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="ex: 16/07/2022">
+      </div>
+    </form>
+    <form>
+      <div class="form-group">
+        <img class="image-assets" src="assets/placeholder.png" alt="">
+        <span>Para onde deseja ir?</span>
+        <input type="text" class="form-control" id="formGroupExampleInput" placeholder= "Local de Destino..">
+      </div>
+      <div class="form-group">
+        <img class="image-assets" src="assets/calendario.png" alt="">
+        <span>Previsão de Retorno?</span>
+        <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="ex: 20/07/2022">
+      </div>
+    </form>
+    <button  type="button" class="btn btn-warning btn-lg"><a href="#">Buscar Pacotes</a> </button>
+   </section>
+   
+   <hr>
+   <h2>Pacotes com maiores <strong>buscas</strong></h2>
+   <hr>
+   <main id="menu">
+
+    <div id="container">
+   
+      <div class="card" style="width: 18rem;">
+        <img class="card-img-top" src="images/pacote-pipa.png" alt="Imagem de capa do pacote">
+        <div class="card-body"> 
+          <h5 class="card-title">Praia de Pipa-RN</h5>
+          <p class="card-text">O pacote para Praia da Pipa inclui voo + hotel. Você também pode encontrar pacotes que incluem seguro viagem, traslado do aeroporto e atividades.</p>
+          <a href="#" class="btn btn-primary">Visitar</a>
+        </div>
+      </div>
+      <div class="card" style="width: 18rem;">
+        <img class="card-img-top" src="images/pacote-rio.png" alt="Imagem de capa do pacote">
+        <div class="card-body">
+          <h5 class="card-title">Rio de Janeiro-RJ</h5>
+          <p class="card-text">O pacote para Rio de Janeiro inclui voo + hotel. Você também pode encontrar pacotes que incluem seguro viagem, traslado do aeroporto e atividades.</p>
+          <a href="#" class="btn btn-primary">Visitar</a>
+        </div>
+      </div>
+      
+      <div class="card" style="width: 18rem;">
+        <img class="card-img-top" src="images/pacote-fn.png" alt="Imagem de capa do pacote">
+        <div class="card-body">
+          <h5 class="card-title">Fernando de Noronha</h5>
+          <p class="card-text">O pacote para Noronha inclui voo + hotel. Você também pode encontrar pacotes que incluem seguro viagem, traslado do aeroporto e atividades.</p>
+          <a href="#" class="btn btn-primary">Visitar</a>
+        </div>
+      </div>
+      </div>  
+   </main>
+   
+   <section id="commit">
+    <hr>
+    <h2>E sobre <strong>Feedback</strong> </h2>
+    <hr>
+
+    <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <div class="d-block w-100">
+            <div id="card-commit" class="card">
+              <div class="card-header">
+                Comentários
+                <img class="position-img-est" src="assets/estrelas.png" alt="estrelas comentário">
+              </div>
+              <div class="card-body">
+                <blockquote class="blockquote mb-0">
+                  <p>Muito feliz as melhores viagens, com um preço justo e lugares incriveís, foi demais! </p>
+                  <footer class="blockquote-footer">Patrícia Brito deixou um comentário!</footer>
+                </blockquote>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="carousel-item">
+          <div class="d-block w-100">
+            <div id="card-commit" class="card">
+              <div class="card-header">
+                Comentários
+                <img class="position-img-est" src="assets/estrelas.png" alt="estrelas comentário">
+              </div>
+              <div class="card-body">
+                <blockquote class="blockquote mb-0">
+                  <p>Super recomendo! Experiência maravilhosa com pessoas incrivíes, vocês são ótimos.</p>
+                  <footer class="blockquote-footer">Sabrina Maciel deixou um comentário!</footer>
+                </blockquote>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="carousel-item">
+          <div class="d-block w-100">
+            <div id="card-commit" class="card">
+              <div class="card-header">
+                Comentários
+                <img class="position-img-est" src="assets/estrelas.png" alt="estrelas comentário">
+              </div>
+              <div class="card-body">
+                <blockquote class="blockquote mb-0">
+                  <p>Primeira viegem com vocês e foi tudo além do esperado, supreende em todos os aspectos, foi uma viagem incrivel, até breve!</p>
+                  <footer class="blockquote-footer">Pedro Lucas deixou um comentário! </footer>
+                </blockquote>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+   </section>
+   
+   <footer id="footer">
+    <img src="assets/Logo.svg" alt="" width="240px">
+      <ul>
+        <li class="padrao">F1 Turismo e Viagens</li>
+        <li class="padrao">Todos os Direitos Reservados</li>
+        <li class="padrao">Av. Monsenhor Tabosa,1406,Ed. Parque Center, Sala 420 A</li>
+        <li class="padrao">Fortaleza-Ce</li>
+        <li class="padrao">CEP 60165-010</li>
+      </ul>
+   </footer>
+ </div>
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
+</body>
+</html>

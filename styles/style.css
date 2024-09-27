@@ -1,0 +1,314 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: none;
+  text-decoration: none;
+  box-sizing: border-box;
+  overflow-x: hidden;
+  
+  font-family: 'DM Sans', sans-serif;
+}
+
+
+/*---- GERAL -----*/
+body {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+  max-width: 1265px;
+
+  background-color: #ffffff;
+}
+
+#bodySection {
+  max-width: 1300px;
+  background-color: rgba(248, 243, 234, 0.89);
+}
+
+.grid-container{  
+  display: grid;
+  grid-template-columns: auto auto auto ;
+  background-image: url("../assets/bg.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+
+  margin: 1rem;
+
+  border-radius: 30px 0px 30px 0px;
+  box-shadow: 4px 1px 4px 2px #00000059;
+}
+
+div#logo{
+  grid-column-start: 1;
+  grid-column-end: 3;
+}
+
+nav#go-enter {
+  grid-column-start: 2;
+  grid-column-end: 4;
+  text-align: center;
+  padding-top: 1rem;
+  padding-left: 1rem;
+  overflow: hidden;
+}
+
+.image-assets {
+  padding-bottom: 1rem;
+}
+
+label {
+  color: #ffffff;
+  background-color: rgba(0, 0, 0, 0.76);
+  padding: 2px;
+  border-radius: 5px;
+
+  margin-left: 7px;
+  margin-bottom: -9px;
+}
+
+h2{
+  text-align: center;
+  background-image: linear-gradient(to left, transparent, rgba(190, 144, 58, 0.397), rgba(218, 190, 67, 0.603), transparent);
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+
+  font-family: 'DM Sans', sans-serif;
+  color: #412b2b;
+  text-shadow: 5px 5px 5px #ffffff;
+}
+
+h5{
+  overflow: hidden;
+  background-color: aliceblue;
+  text-align: center;
+  
+}
+
+/*---- Caixa de texto Header -----*/
+.input-group {
+  padding-left: 8rem;
+  width: 75%;
+  padding-top: 2.5rem; 
+}
+
+/*---- Botão Caixa de texto Header -----*/
+.input-group-append{
+  display: block;
+}
+
+.btn-outline-secondary{
+  border-color: transparent;
+}
+
+/*---- Alinhamento links Menu Navbar -----*/  
+.mt-lg-0, .my-lg-0 {
+  margin-block: auto;
+}
+
+@media (min-width: 992px) {
+  .navbar-expand-lg .navbar-nav {
+    flex-direction: row;
+    padding-left: 9rem;
+  }
+}
+
+@media (min-width: 992px) {
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: 2.5rem;
+    padding-left: 2.5rem;
+}
+}
+
+/*---- Alinhamento e style link Sing in Navbar -----*/  
+#go-enter{
+  max-width: 656px;
+}
+
+#go-enter > a {
+  color: rgb(189, 28, 28);
+  font-weight: 500;
+  font-style: italic;
+  background-color: #ffffff33 ;
+  border-radius: 20px;
+  text-decoration: none; 
+  padding: .70rem;
+}
+
+#go-enter > a:hover {
+  color: rgba(0, 0, 0, 0.733);
+}
+
+.navbar-light .navbar-nav .nav-link{
+  color: rgb(189, 28, 28);
+  font-weight: 500;
+  font-style: italic;
+  background-color: #ffffff33 ;
+  border-radius: 20px;
+  margin: .51rem;
+}
+
+.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show >.nav-link {
+  color: rgba(0, 0, 0, 0.9);
+  font-weight: 500;
+  font-style: italic;
+}
+
+
+/*---- Section de Formulario-----*/ 
+#form-index {
+  border-radius: 1rem;
+  max-width: 55rem;
+
+  margin-top: 1rem;
+  margin-bottom: 4rem;
+
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+
+  box-shadow: 3px 2px 10px 0px #0000007d;
+}
+
+form {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 1rem;
+}
+
+
+#formGroupExampleInput {
+  width: 25rem; 
+} 
+
+/*---- Section de Formulario Botão-----*/ 
+.btn-lg {
+  margin-left: 27.3rem;
+  margin-bottom: 1rem;
+  transition: .5s;
+
+}
+
+
+/*---- Menu e cards-----*/ 
+#menu {
+  margin: 1rem;
+  background-image: url(/assets/bg-menu.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+
+  box-shadow: 4px 1px 4px 2px #00000059;
+}
+
+#container {
+  height: 40rem;
+}
+
+.card {
+  display: inline-block;
+  margin-left: 5.5rem;
+  margin-top: 3rem;
+  
+  background-color: #ffffff7e;
+
+  box-shadow: 3px 2px 10px 0px #0000007d; 
+}
+
+
+/*---- Commit -----*/ 
+div#card-commit.card{
+  width: 30rem;
+  display: block;
+  margin-left: auto;
+  margin-right: auto; 
+}
+
+#commit{
+  margin-bottom: 2rem;
+  padding-bottom: 2rem;
+}
+
+.position-img-est{
+  margin-top: -3px;
+  margin-left: 10px;
+}
+
+
+/*---- Footer -----*/ 
+#footer{
+  background-image: linear-gradient(to bottom, #134850, transparent, rgba(218, 190, 67, 0.603));
+  height: 15rem;
+  
+  display: grid;
+  grid-template-columns: auto auto;
+  overflow: hidden; 
+}
+
+ul{
+  margin-top: 30px;
+  margin-bottom: 0;
+}
+
+li.padrao{
+  padding-top: .7rem;
+}
+/*---- Resposividade -----*/ 
+@media (max-width: 810px) {
+  .card {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 3rem;
+    
+    background-color: #ffffff7e;
+  
+    box-shadow: 3px 2px 10px 0px #0000007d;
+} #menu {
+  background-image: none;
+ } #formGroupExampleInput {
+  width: 95%;
+ } #container {
+  height: 110rem;
+ } .navbar-light .navbar-nav .nav-link{
+  width: 50%;
+  text-align: center;
+ } .input-group {
+  display: none;
+ } .grid-container{
+    padding-bottom: 3rem;
+    
+ }
+
+}
+
+@media (max-width: 656px) {
+  .btn-lg {
+      margin-left: 10rem;
+      transition: .5s;
+  }
+}
+
+@media (max-width: 460px) {
+  #Logo{
+      display: none;
+
+  }.grid-container{
+    background-image: none;
+    background-image: linear-gradient(to bottom, #134850, transparent, rgba(218, 190, 67, 0.603));
+
+  } #form-index{
+    width: 300px;
+
+  } .btn-lg {
+    margin-left: 4rem;
+    transition: .5s;
+
+  } div#card-commit.card{
+  width: 20rem;
+  
+  } li.padrao{
+  font-size: 12px;
+  } h2{
+    font-size: larger;
+  }
+}

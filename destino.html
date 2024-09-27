@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>F1 Tuor - Turismo e Viagens</title>
+  <!------Bootstrap------>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+   <!-----CSS------>
+  <link rel="stylesheet" href="./styles/destino.css">
+
+   <!------Font-Family------>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital@0;1&display=swap" rel="stylesheet">
+</head>
+
+
+
+<body>
+ <div id="bodySection">
+   <header>
+      <div class="grid-container">
+        <div>
+          <nav  class="navbar navbar-expand-lg navbar-light ">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Alterna navegação">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+              <a class="navbar-brand" href="#"><img id="Logo" src="assets/Logo.svg" alt="Logomarca F1 Turismo" width="200px" height="200px"></a>
+   
+              <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                <li class="nav-item ">
+                  <a class="nav-link" href="index.html">Home</a>
+                </li>
+                <li class="nav-item active">
+                  <a class="nav-link" href="#">Destino <span class="sr-only">(Página atual)</span></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="promocoes.html">Promoções</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="sobre.html">Sobre</a>
+                </li>
+              </ul>
+            </div>
+          </nav>
+   
+          <div class="input-group mb-3">
+            <input type="text" class="form-control" placeholder="Olá, digite o que você procura.." aria-label="Recipient's username" aria-describedby="button-addon2">
+            <div class="input-group-append">
+              <button class="btn btn-outline-secondary" type="button" id="button-addon2"><img src="assets/lets-go.png" alt="botão ir"></button>
+            </div>
+          </div>
+        </div>
+        <nav id="go-enter">
+          <a href="compra.html"><img src="assets/carrinho-de-compras.png" alt="Carrinho de compras" width="38px" height="38px"></a>
+          <a href="singin.html">Sing in</a>
+        </nav>
+      </div>
+   </header>
+
+    <div>
+      <hr>
+       <h2 class="topicos">Lugares para viajar no <strong>Brasil</strong>, você conhece por aqui!  <img src="images/no-mundo-todo.png" alt="" width="50px" ></h2>
+    </div>
+
+   <main id="menu">
+    <div id="container">
+
+      <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img class="d-block w-100" src="images/jeri.png" alt="Imagem jeri">
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" src="images/morro-sp.png" alt="imagem morro-sp">
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" src="images/bonito-mts.png" alt="Imagem bonito-mts">
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Anterior</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Próximo</span>
+        </a>
+      </div>
+
+    </div>  
+   </main>
+
+   <section id="form-destino">
+      <div class="card">
+        <div class="dropdown">
+          <img class="card-img"src="images/chapada.jpeg" alt="Imagem do card" width="80px" height="200px">
+          <h5 class="dropdown-content">&#x1F4CD; Alto Paraíso, Goiás</h5>
+          <a id="nav-card" href="#" class="dropdown-content">Saiba mais</a>
+          <a href="#" class="dropdown-content"><img src="assets/carrinho-de-compras.png" alt="Carrinho de compras" width="38px" height="38px"></a>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="dropdown">
+          <img class="card-img" src="images/joao-pessoa.jpg" alt="Imagem do card" width="80px" height="200px">
+          <h5 class="dropdown-content">&#x1F4CD; João Pessoa, Paraíba</h5>
+          <a href="#" class="dropdown-content">Saiba mais</a>
+          <a href="#" class="dropdown-content"><img src="assets/carrinho-de-compras.png" alt="Carrinho de compras" width="38px" height="38px"></a>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="dropdown">
+          <img class="card-img" src="images/monteverde.jpg" alt="Imagem do card" width="80px" height="200px">
+          <h5 class="dropdown-content">&#x1F4CD; Monte Verde, Minas Gerais</h5>
+          <a href="#" class="dropdown-content">Saiba mais</a>
+          <a href="#" class="dropdown-content"><img src="assets/carrinho-de-compras.png" alt="Carrinho de compras" width="38px" height="38px"></a>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="dropdown">
+          <img class="card-img" src="images/porto-de-galinhas.jpeg" alt="Imagem do card" width="80px" 
+        height="200px">
+          <h5 class="dropdown-content">&#x1F4CD; Porto de Galinhas-Ipojuca, Pe</h5>
+          <a href="#" class="dropdown-content">Saiba mais</a>
+          <a href="#" class="dropdown-content"><img src="assets/carrinho-de-compras.png" alt="Carrinho de compras" width="38px" height="38px"></a>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="dropdown">
+          <img class="card-img" src="images/sao-miguel.jpg" alt="Imagem do card" width="100px" height="200px">
+          <h5 class="dropdown-content">&#x1F4CD; São Miguel dos Milagres, AL</h5>
+          <a href="#" class="dropdown-content">Saiba mais</a>
+          <a href="#" class="dropdown-content"><img src="assets/carrinho-de-compras.png" alt="Carrinho de compras" width="38px" height="38px"></a>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="dropdown">
+          <img class="card-img" src="images/visconde.jpg" alt="Imagem do card" width="80px" height="200px">
+          <h5 class="dropdown-content">&#x1F4CD; Visconde de Mauá, RJ</h5>
+          <a href="#" class="dropdown-content">Saiba mais</a>
+          <a href="#" class="dropdown-content"><img src="assets/carrinho-de-compras.png" alt="Carrinho de compras" width="38px" height="38px"></a>
+        </div>
+      </div>
+   </section>
+   
+   
+   <section >
+    <hr>
+    <h2 class="topicos"><strong>Diga-nos</strong> para onde está querendo ir &#x1F447;</h2>
+    <hr>
+
+    <form>
+      <div class="form-row">
+        <div class="form-group col-md-6">
+          <label for="inputEmail4">Nome</label>
+          <input type="email" class="form-control" id="inputEmail4" placeholder="Digite seu Nome">
+        </div>
+        <div class="form-group">
+          <label for="inputAddress2">Telefone</label>
+          <input type="text" class="form-control" id="inputAddress2" placeholder="(ddd) 99999-9999">
+        </div>
+      </div>
+      <div class="form-group">
+        <label for="inputAddress">Email</label>
+        <input type="text" class="form-control" id="inputAddress" placeholder="exemplo@gmail.com">
+      </div>
+      <div class="form-group">
+        <label for="inputAddress2">Digite aqui</label>
+        <input type="text" class="form-control" id="inputAddress2" placeholder="Lugar, hotel, etc..">
+      </div>
+      <div class="form-group">
+        <div class="form-check">
+          <input class="form-check-input" type="checkbox" id="gridCheck">
+          <label class="form-check-label" for="gridCheck">
+            Aceito Receber Ofertas
+          </label>
+        </div>
+      </div>
+      <button type="submit" class="btn btn-primary">Enviar</button>
+    </form>
+   </section>
+   
+   <footer id="footer">
+    <img src="assets/Logo.svg" alt="" width="240px">
+      <ul>
+        <li class="padrao">F1 Turismo e Viagens</li>
+        <li class="padrao">Todos os Direitos Reservados</li>
+        <li class="padrao">Av. Monsenhor Tabosa,1406,Ed. Parque Center, Sala 420 A</li>
+        <li class="padrao">Fortaleza-Ce</li>
+        <li class="padrao">CEP 60165-010</li>
+      </ul>
+   </footer>
+ </div>
+
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
+</body>
+</html>
